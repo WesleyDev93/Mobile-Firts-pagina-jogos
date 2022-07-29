@@ -1,0 +1,18 @@
+.lista {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.lista {
+    bottom: 300px;
+    margin: 0 10px 0 10px;
+    position: relative;
+    width: 370px;
+
+}

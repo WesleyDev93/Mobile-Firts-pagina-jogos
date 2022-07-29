@@ -1,0 +1,11 @@
+.botao__lista {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.botao__lista {
+    bottom: 250px;
+    position: relative;
+}

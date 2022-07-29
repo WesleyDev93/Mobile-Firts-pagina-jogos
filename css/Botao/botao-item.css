@@ -1,0 +1,18 @@
+
+.botao__item {
+    background-color: green;
+    border: 2px  ridge black;
+    border-radius: 20px;
+    font-family: fantasy;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    width: 30%;
+
+    
+
+}
+
+#comprar {
+    display: none;
+}
