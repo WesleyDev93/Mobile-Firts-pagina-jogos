@@ -1,0 +1,49 @@
+.rodape__formulario {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+
+.rodape__formulario {
+    
+    text-align: center;
+
+}
+
+.rodape__nome{
+    font-family: fantasy;
+    font-size: 1.3rem;
+}
+
+
+.rodape__email{
+    font-family: fantasy;
+    font-size: 1.3rem;
+}
+
+
+.rodape__mensagem{
+    font-family: fantasy;
+    font-size: 1.3rem;
+}
+
+
+
+
+#nome {
+  margin-bottom: 15px;
+}
+
+
+#email {
+    margin-bottom: 15px;
+}
+
+
+
+#mensagem {
+    padding: 30px;
+    margin-bottom: 15px;
+}

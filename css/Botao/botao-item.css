@@ -1,10 +1,11 @@
 
 .botao__item {
     background-color: green;
+    color: white;
     border: 2px  ridge black;
     border-radius: 20px;
     font-family: fantasy;
-    font-weight: 300;
+    font-weight: bold;
     font-style: italic;
     text-align: center;
     width: 30%;

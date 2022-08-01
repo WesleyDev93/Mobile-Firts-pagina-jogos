@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/Style.css">
     <link rel="stylesheet" href="./css/principal.css">
-    <link rel="stylesheet" href="./css/cabecalho.css>
+    <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/titulo/titulo.css">
     <link rel="stylesheet" href="./css/titulo/titulo-item.css">
     <link rel="stylesheet" href="./css/conteudo/conteudo.css">
@@ -21,9 +21,11 @@
     <link rel="stylesheet" href="./css/Botao/botao-preco.css">
     <link rel="stylesheet" href="./css/lista/lista-descritivo.css">
     <link rel="stylesheet" href="./css/lista/lista-01.css">
-    <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="stylesheet" href="./css/rodape/rodape.css">
     <link rel="stylesheet" href="./css/desktop.css">
-    <link rel="stylesheet" href="css/rodape lista/icones.css">
+    <link rel="stylesheet" href="css/rodape/rodape-icones.css">
+    <link rel="stylesheet" href="./css/rodape/rodape__formulario.css">
+    <link rel="stylesheet" href="./css/rodape/rodape__faleconosco.css">
 
     <title>Xtr4meGames</title>
 
@@ -81,6 +83,11 @@
                
             <ul class="botao__lista">
 
+
+                  <li>
+                    <p class="botao__preco">Preço: R$130,00</p>
+                  </li>
+
                       <li class="botao__item">
                         <button>
                             <input type="checkbox" id="comprar">
@@ -88,16 +95,14 @@
                         </button>
                       </li>
 
-                      <li>
-                        <p class="botao__preco">Preço: R$130,00</p>
-                      </li>
+                      
             </ul>
         </section>
     </main>  
 
     <footer class="rodape">
         <div >
-            <ul class="icones">
+            <ul class="rodape__icones">
                 <li><a href="#"><img src="./Imagens/Pesquisa.png" alt="Pesquisa"></a></li>
                 <li><a href="#"><img src="./Imagens/Favoritos.png" alt="Favoritar"></a></li>
                 <li><a href="#"><img src="./Imagens/Carrinho.png" alt="Carrinho de produtos"></a></li>
@@ -105,6 +110,27 @@
             </ul>
         </div>
        
+           
+              <div class="rodape__faleconosco"><p >Fale conosco deixe sua mensagem!</p></div>
+
+
+        <form class="rodape__formulario">
+
+            
+             
+            <label  for="nome" class="rodape__nome">Nome</label>
+            <input  type="text" id="nome">
+
+            
+            <label for="email" class="rodape__email">Email</label>
+            <input type="text" id="email">
+
+            
+            <label for="mensagem" class="rodape__mensagem">Mensagem</label>
+            <input type="text" id="mensagem">
+               
+            
+        </form>
        
       
     </footer>
