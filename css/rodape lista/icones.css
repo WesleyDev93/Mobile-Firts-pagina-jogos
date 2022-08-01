@@ -1,0 +1,14 @@
+.icones {
+   display: flex;
+   justify-content: space-around;
+   position: relative;
+   bottom: 90px;
+
+}
+
+.icones {
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0 5px 0 5px;
+
+}
