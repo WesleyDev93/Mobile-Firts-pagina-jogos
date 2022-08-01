@@ -20,9 +20,8 @@
     <link rel="stylesheet" href="./css/Botao/botao-lista.css">
     <link rel="stylesheet" href="./css/Botao/botao-preco.css">
     <link rel="stylesheet" href="./css/lista/lista-descritivo.css">
-    <link rel="stylesheet" href="./css/lista/lista-01.css">
     <link rel="stylesheet" href="./css/rodape/rodape.css">
-    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/reposividadeDesktop.css">
     <link rel="stylesheet" href="css/rodape/rodape-icones.css">
     <link rel="stylesheet" href="./css/rodape/rodape__formulario.css">
     <link rel="stylesheet" href="./css/rodape/rodape__faleconosco.css">
@@ -32,7 +31,19 @@
     <title>Xtr4meGames</title>
 
 </head>
+
 <body class="estilo">
+
+    <section> 
+        <ul class="desktop">
+            <li class="desktop__item"><a href="#">Historia</a></li>
+            <li class="desktop__item"><a href="#">Videos</a></li>
+            <li class="desktop__item"><a href="#">Fotos</li>
+            <li class="desktop__item"><a href="#">Wallpapers</a></li>
+        </ul>
+    </section>
+
+
     <section class="cabecalho">
         
         <div class="cabecalho__img01">
@@ -45,8 +56,10 @@
 
     </section>
     
+    
     <main class="principal">
-        
+    
+       
         <div class="titulo">
             <h1 class="titulo__item">Hitman Absolution</h1>
         </div>  
@@ -60,7 +73,7 @@
 
         <section class="lista">
             
-            <ul  class="lista__01">
+            <ul>
 
               
                 <li class="lista__subtitulo"><h2>Sobre o jogo</h2></li>
@@ -75,8 +88,30 @@
                     o jogador pode explorar o lado mais letal do personagem principal: 
                     xícaras de café, garrafas de cerveja e alicates de pressão viram armas nas mãos do protagonista. 
                     No game, o herói deve encontrar os colegas que o traíram, fazendo-o ser procurado pela polícia.</p></li>
+                    
+            </ul>
+        </section>
 
 
+
+        <section class="lista">
+            
+            <ul>
+
+              
+                <li class="lista__subtitulo"><h2>Sobre o jogo</h2></li>
+              
+
+                <li> 
+                    <p class="lista__descritivo">Hitman: Absolution é um jogo eletrônico de furtividade 
+                    desenvolvido pela IO Interactive e publicado pela Square Enix. É o quinto titulo da 
+                    série Hitman.
+                    Em Hitman: Absolution foi utilizado o motor Glacier 2, propriedade da IO Interactive.
+                    Além de poder jogar com as habilidades já conhecidas do Assassino 47, 
+                    o jogador pode explorar o lado mais letal do personagem principal: 
+                    xícaras de café, garrafas de cerveja e alicates de pressão viram armas nas mãos do protagonista. 
+                    No game, o herói deve encontrar os colegas que o traíram, fazendo-o ser procurado pela polícia.</p></li>
+                    
             </ul>
         </section>
          
@@ -93,7 +128,7 @@
                       <li class="botao__item">
                         <button>
                             <input type="checkbox" id="comprar">
-                            <label for="comprar">comprar</label>
+                            <label for="comprar"><a href="#"> comprar</a></label>
                         </button>
                       </li>
 
@@ -121,20 +156,20 @@
             
              
             <label  for="nome" class="rodape__nome">Nome</label>
-            <input  type="text" id="nome">
+            <input  type="text"  placeholder="Meu nome" id="nome">
 
             
             <label for="email" class="rodape__email">Email</label>
-            <input type="text" id="email">
+            <input type="text" placeholder="meuemail@provedor.com"  id="email">
 
             
             <label for="mensagem" class="rodape__mensagem">Mensagem</label>
-            <input type="text" id="mensagem">
+            <input type="text" placeholder="Escreva sua mensagem" id="mensagem">
                
 
                 <button class="rodape__botao">
                     <input type="checkbox" id="comprar">
-                    <label for="comprar">Enviar</label>
+                    <label for="comprar"><a href="#"> Enviar</a></label>
                 </button>
               
             

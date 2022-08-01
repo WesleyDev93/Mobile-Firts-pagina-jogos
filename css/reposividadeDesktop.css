@@ -1,0 +1,110 @@
+/* Body */
+
+@media screen and (min-width:1300px){
+    .estilo {
+        width:auto;
+    }
+}
+
+/* Desktop & desktop item*/
+
+.desktop {
+    display: none;
+}
+
+
+@media screen and (min-width:1300px){
+    .desktop {
+        align-items: center;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;  
+        justify-content: center; 
+       
+    }
+}
+
+
+@media screen and (min-width:1300px){
+    .desktop__item {
+        margin: 5px 10px 0 10px;
+        text-align: center;
+       
+    }
+}
+
+
+
+
+
+/* Cabecalho Imagens */
+
+@media screen and (min-width:1300px){
+    .cabecalho__img01 {
+        width:20%;
+    }
+}
+
+
+@media screen and (min-width:1300px){
+    .cabecalho__img02 {
+        bottom: 310px;
+        left: 83%;
+        margin: 0;
+        position: relative;
+        width:230px;
+
+    }
+}
+
+
+/* Titulo */
+
+@media screen and (min-width:1300px){
+    .titulo {
+        bottom: 230px;
+        position: relative;
+        
+        
+    }
+}
+
+
+/* Conteudo */
+
+@media screen and (min-width:1300px){
+    .conteudo__img {
+        position: relative;
+        bottom: 400px;
+        right: 450px;
+        
+    }
+}
+
+
+/* lista */
+
+
+
+
+@media screen and (min-width:1300px){
+    .lista {
+        bottom: 395px;
+        margin: auto;
+        position: relative;
+        width: 90%;
+        margin: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
