@@ -1,4 +1,5 @@
 .rodape__formulario {
+    color: black;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -12,21 +13,24 @@
 
 }
 
-.rodape__nome{
+.rodape__nome {
     font-family: fantasy;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 
-.rodape__email{
+.rodape__email {
     font-family: fantasy;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 
-.rodape__mensagem{
+.rodape__mensagem {
     font-family: fantasy;
     font-size: 1.3rem;
+    text-align: center;
 }
 
 

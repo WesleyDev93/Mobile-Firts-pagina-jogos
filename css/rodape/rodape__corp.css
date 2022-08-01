@@ -1,0 +1,14 @@
+.rodape__corp {
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rodape__corp {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: double;
+    text-shadow: 2px 2px 5px red;
+    width: 90%;
+}

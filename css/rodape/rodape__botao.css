@@ -1,0 +1,14 @@
+.rodape__botao {
+    background-color: green;
+    border: 2px  ridge black;
+    border-radius: 20px;
+    color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+
