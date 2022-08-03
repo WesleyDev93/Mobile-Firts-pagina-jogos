@@ -1,8 +1,5 @@
 
 
-
-
-
 const botaoComprar = document.getElementById ('botaocomprar');
 
 botaoComprar.addEventListener('click', function(){
