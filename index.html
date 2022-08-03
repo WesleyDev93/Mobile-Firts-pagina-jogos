@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="./css/rodape/rodape__corp.css">
     <link rel="stylesheet" href="./css/comportamentos da pagina/comportamentomobile.css">
     <link rel="stylesheet" href="./css/comportamentos da pagina/comportemenosdesktop.css">
+   
 
     <title>Xtr4meGames</title>
 
@@ -102,18 +103,15 @@
             <ul>
 
               
-                <li class="desktop__subtitulo"><h3>Sobre o jogo</h3></li>
+                <li class="desktop__subtitulo"><h3>IA Aprimorada</h3></li>
               
 
                 <li> 
-                    <p class="desktop__descritivo">Hitman: Absolution é um jogo eletrônico de furtividade 
-                    desenvolvido pela IO Interactive e publicado pela Square Enix. É o quinto titulo da 
-                    série Hitman.
-                    Em Hitman: Absolution foi utilizado o motor Glacier 2, propriedade da IO Interactive.
-                    Além de poder jogar com as habilidades já conhecidas do Assassino 47, 
-                    o jogador pode explorar o lado mais letal do personagem principal: 
-                    xícaras de café, garrafas de cerveja e alicates de pressão viram armas nas mãos do protagonista. 
-                    No game, o herói deve encontrar os colegas que o traíram, fazendo-o ser procurado pela polícia.</p></li>
+                    <p class="desktop__descritivo">O jogo promove uma série de interações que só a franquia é capaz de estabelecer, 
+                        como a variedade de possibilidades em uma sequencia de ação. 
+                        Por exemplo, há vários modos de eliminar dezenas de inimigos em um único ambiente - sempre. 
+                        No controle do Agente 47, o jogador tem uma liberdade de opções graças à mecânica que foi evoluída neste jogo, 
+                        assim como o sistema de inteligência artificial melhorado.</p></li>
                     
             </ul>
         </section>
@@ -126,18 +124,16 @@
             <ul>
 
               
-                <li class="desktop__subtitulo"><h4>Sobre o jogo</h4></li>
+                <li class="desktop__subtitulo"><h4>Disfarces</h4></li>
               
 
                 <li> 
-                    <p class="desktop__descritivo">Hitman: Absolution é um jogo eletrônico de furtividade 
-                    desenvolvido pela IO Interactive e publicado pela Square Enix. É o quinto titulo da 
-                    série Hitman.
-                    Em Hitman: Absolution foi utilizado o motor Glacier 2, propriedade da IO Interactive.
-                    Além de poder jogar com as habilidades já conhecidas do Assassino 47, 
-                    o jogador pode explorar o lado mais letal do personagem principal: 
-                    xícaras de café, garrafas de cerveja e alicates de pressão viram armas nas mãos do protagonista. 
-                    No game, o herói deve encontrar os colegas que o traíram, fazendo-o ser procurado pela polícia.</p></li>
+                    <p class="desktop__descritivo">É possível adquirir uma série de disfarces ao longo do jogo. Quase todo mundo é 
+                        uma presa fácil para que o Agente 47 adquira suas vestimentas. 
+                        Ao utilizá-las, o jogador poderá se misturar às 
+                        multidões e alcançar seus objetivos de maneira mais fácil.<br>
+                        O jogo traz ainda uma história com personagens únicos, diálogo rico e atuações acima da média, 
+                        tudo para deixar que o jogador se sinta ainda mais na pele do temido assassino.</p></li>
                     
             </ul>
         </section>
@@ -153,7 +149,7 @@
                   </li>
 
                       <li class="botao__item">
-                        <button>
+                        <button id="botaocomprar">
                             <input type="checkbox" id="comprar">
                             <label for="comprar"><a href="#"> comprar</a></label>
                         </button>
@@ -194,18 +190,21 @@
             <input type="text" placeholder="Escreva sua mensagem" id="mensagem">
                
 
-                <button class="rodape__botao">
-                    <input type="checkbox" id="comprar">
-                    <label for="comprar"><a href="#"> Enviar</a></label>
+                <button id="botaoenviar" class="rodape__botao">
+                    <input type="checkbox" id="enviar">
+                    <label for="enviar"><a href="#">Enviar</a></label>
                 </button>
               
             
         </form>
-       
+         
+        
+        
+
       <p class="rodape__corp">&copy  desenvolvido por Wesley Miyashiro</p>
 
     </footer>
-    
+    <script src="./testebotaoJS/testecomprar.js"></script>
 </body>
 </html>
 
