@@ -1,0 +1,28 @@
+.botaoplay {
+    border: 1px solid red;
+    border-radius: 15px;
+    background-color: red;
+    margin: 5px;
+}
+
+
+
+.botaopause {
+    border: 1px solid red;
+    border-radius: 15px;
+    background-color: red;
+    margin: 5px;
+
+}
+
+
+
+.botaoplay:hover {
+    opacity: 5%;
+}
+
+
+
+.botaopause:hover {
+    opacity: 5%;
+}

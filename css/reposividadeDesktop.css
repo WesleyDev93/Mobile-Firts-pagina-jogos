@@ -182,6 +182,26 @@
 
 
 
+
+@media screen and (min-width:1300px){
+    .botaoplay {
+        width: 10%;
+        height: 10%;
+    }
+}
+
+
+
+
+@media screen and (min-width:1300px){
+    .botaopause {
+        width: 10%;
+        height: 10%;
+    }
+}
+
+
+
 /* rodape */
 
 @media screen and (min-width:1300px){
