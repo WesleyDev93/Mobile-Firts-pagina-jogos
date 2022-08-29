@@ -1,5 +1,5 @@
 # Mobile-Firts-pagina-jogos
-Projeto será desenvolvido com metodologia mobile-firts dentro da Mentoria " conquiste sua vaga "
+Projeto será desenvolvido com metodologia mobile-firt dentro da Mentoria " conquiste sua vaga "
 projeto desenvolvido para melhorar praticas de media queries , mobile first e desktop.
 
 
@@ -19,7 +19,7 @@ Projeto feito para uma pagina sobre o jogo HITMAN Absolution
 -- além das praticas acima mantemos os metodos dos projetos anteriores com o atomico e o BEM.
 -- abaixo podemos ver um pedaço da resposividade para Desktop feitos a partir do CSS.
 
-
+```
 /* Body */
 
 @media screen and (min-width:1300px){
@@ -80,8 +80,30 @@ Projeto feito para uma pagina sobre o jogo HITMAN Absolution
     }
 }
 
+```
 
 
+Codigo do player 
+
+
+```                   
+const botaoPlay = document.querySelector ('.botaoplay');
+
+console.log (botaoPlay);
+
+botaoPlay.addEventListener ('click', function(){
+            const tocar = document.querySelector ('audio');
+                       tocar.play()
+})
+
+
+const botaoPause = document.querySelector ('.botaopause');
+
+botaoPause.addEventListener ('click', function () {
+    const parar  = document.querySelector ('audio');
+                  parar.pause();
+})
+```
 
 
 
