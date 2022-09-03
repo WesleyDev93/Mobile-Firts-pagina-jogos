@@ -1,111 +1,49 @@
+
 # Mobile-Firts-pagina-jogos
-Projeto será desenvolvido com metodologia mobile-firt dentro da Mentoria " conquiste sua vaga "
-projeto desenvolvido para melhorar praticas de media queries , mobile first e desktop.
 
 
+- [Visão Geral](#visão-geral)
+  - [O desafio](#the-challenge)
+  - [Captura de tela](#captura-de-tela)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+- [Autor](#autor)
+
+
+## Visão geral
 
 Projeto feito para uma pagina sobre o jogo HITMAN Absolution
+Projeto será desenvolvido com metodologia mobile-firt dentro da Mentoria " conquiste sua vaga "
 
+### O desafio
 
+Os usuários devem ser capazes de:
 
--- No projeto foi usado HTML CSS E JS 
--- projeto focado nas medias queries e no mobile-first, sendo desenvolvido para iphones 13 e desktops com 1300 pixel's de tela
+- executar os player's e botoes , ver as noticias e interagir com os formulários e botões.
+
+### Captura de tela
 
 ![image](https://user-images.githubusercontent.com/108889735/183121954-06ea4612-df9b-4bb7-a44d-acff1d3d4e34.png)
 
+### Links
 
+- URL do site ao vivo: (<https://mobile-firts-pagina-jogos.vercel.app/>)
 
+## Meu processo
 
--- além das praticas acima mantemos os metodos dos projetos anteriores com o atomico e o BEM.
--- abaixo podemos ver um pedaço da resposividade para Desktop feitos a partir do CSS.
+projeto desenvolvido para melhorar praticas de media queries , mobile first e desktop.
 
-```
-/* Body */
+### Construído com
 
-@media screen and (min-width:1300px){
-    .estilo {
-        width:auto;
-    }
-}
+- Marcação HTML5 semântica
+- Propriedades personalizadas de CSS
+- JavaSCript 
 
-/* Desktop & desktop item*/
+### O que eu aprendi
 
-.desktop {
-    display: none;
-}
+Melhorias de medias queries e pequena implementação e player.
 
-
-@media screen and (min-width:1300px){
-    .desktop {
-        align-items: center;
-        color: white;
-        display: flex;
-        flex-direction: row;
-        font-size: 2rem;  
-        justify-content: center; 
-       
-    }
-}
-
-
-@media screen and (min-width:1300px){
-    .desktop__item {
-        margin: 5px 10px 0 10px;
-        text-align: center;
-       
-    }
-}
-
-
-
-
-
-/* Cabecalho Imagens */
-
-@media screen and (min-width:1300px){
-    .cabecalho__img01 {
-        width:20%;
-    }
-}
-
-
-@media screen and (min-width:1300px){
-    .cabecalho__img02 {
-        bottom: 310px;
-        left: 83%;
-        margin: 0;
-        position: relative;
-        width:230px;
-
-    }
-}
-
-```
-
-
-Codigo do player 
-
-
-```                   
-const botaoPlay = document.querySelector ('.botaoplay');
-
-console.log (botaoPlay);
-
-botaoPlay.addEventListener ('click', function(){
-            const tocar = document.querySelector ('audio');
-                       tocar.play()
-})
-
-
-const botaoPause = document.querySelector ('.botaopause');
-
-botaoPause.addEventListener ('click', function () {
-    const parar  = document.querySelector ('audio');
-                  parar.pause();
-})
-```
-
-
-
-também adicionando um player com uma trilha sonora usando conceitos basicos de JavaScript aprendidos em aulas e colocados em um player acima do site.
-Projeto foi desenvolvido  e testado no navegador do firefox.
+### author
+- Linkedin: (https://www.linkedin.com/in/wesleyoliveiralima/)
